@@ -1,0 +1,19 @@
+@use '_fonts';
+@use '_header';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+//1480 1180 1023 540
+body {
+  font-family: 'NotoSansKR', sans-serif;
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  border: none;
+  background-color: inherit;
+}
