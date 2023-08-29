@@ -6,14 +6,20 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 //1480 1180 1023 540
 body {
   font-family: 'NotoSansKR', sans-serif;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  color: #00101D;
+  font-size: 16px;
+  width: 100vw;
+  overflow-x: hidden;
 }
 
 button {
   border: none;
   background-color: inherit;
+  cursor: pointer;
 }

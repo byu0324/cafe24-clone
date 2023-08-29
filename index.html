@@ -5,6 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>카페24</title>
+  <link rel="icon" href="images/favicon.ico">
   <script src="https://kit.fontawesome.com/9793a33acb.js" crossorigin="anonymous"></script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="stylesheet"
@@ -14,31 +15,176 @@
 
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/main.css">
-  <link rel="icon" href="images/favicon.ico">
 </head>
 
 <body>
   <header>
-    <div class="logo-layout">
-      <a href="index.html"><img src="images/logo.svg" alt=""></a>
-      <button class="shoppingmall-btn"><span>쇼핑몰 만들기</span></button>
-    </div>
-    <ul class="header-list">
-      <li>커머스</li>
-      <li>마케팅</li>
-      <li>호스팅</li>
-      <li>추천서비스</li>
-    </ul>
-    <div class="header-utility">
-      <nav class="header-nav">
-        <a href="">엔터프라이즈</a>
-        <a href="" class="support">고객지원</a>
-        <a href="login/login.html" class="login">로그인</a>
-      </nav>
-      <button class="search"><i class="fa-solid fa-magnifying-glass"></i></button>
-      <button class="menu"></span></button>
+    <div class="header-wrap">
+      <div class="logo-layout">
+        <a href="index.html"><img src="images/logo.svg" alt=""></a>
+        <button class="shoppingmall-btn"><span>쇼핑몰 만들기</span></button>
+      </div>
+      <ul class="header-list">
+        <li>
+          <span>커머스</span>
+          <ul class="list-sub-menu">
+            <li class="menu-items">
+              <a href=""><span>쇼핑몰 구축</span></a>
+              <ul>
+                <li>무료 쇼핑몰</li>
+                <li>마켓 판매</li>
+                <li>글로벌 쇼핑몰</li>
+                <li class="hot">엔터프라이즈</li>
+              </ul>
+            </li>
+            <li class="menu-items">
+              <a href=""><span>판매</span></a>
+              <ul>
+                <li>도메인 등록</li>
+                <li>쇼핑몰 디자인</li>
+                <li>상품등록</li>
+                <li>주문/배송/재고</li>
+                <li>쇼핑몰 기능확장</li>
+                <li>창업공간</li>
+                <li>창업교육</li>
+              </ul>
+            </li>
+            <li class="menu-items">
+              <a href=""><span>매출성장</span></a>
+              <ul>
+                <li>유튜브 쇼핑</li>
+                <li>구글 판매</li>
+                <li>페이스북 숍스</li>
+                <li>검색엔진최적화</li>
+                <li>프로모션/이벤트</li>
+                <li>SNS마케팅</li>
+                <li>타깃마케팅</li>
+                <li>통계/분석</li>
+              </ul>
+            </li>
+            <li class="menu-items">
+              <a href=""><span>운영</span></a>
+              <ul>
+                <li>글로벌 진출</li>
+                <li>상품고급/사입</li>
+                <li>고객상담/운영대행</li>
+                <li>물류대행</li>
+                <li>금융정보</li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <span>호스팅</span>
+          <ul class="list-sub-menu">
+            <li class="menu-items">
+              <a href=""><span>호스팅</span></a>
+              <ul>
+                <li>웹호스팅</li>
+                <li>스페셜호스팅</li>
+                <li>서버호스팅/IDC</li>
+                <li>클라우드</li>
+                <li>GPU호스팅/AI</li>
+                <li>도메인</li>
+                <li>웹메일/그룹웨어</li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <span>마케팅</span>
+          <ul class="list-sub-menu">
+            <li class="menu-items">
+              <a href=""><span>마케팅</span></a>
+              <ul>
+                <li>국내 마케팅</li>
+                <li>글로벌 마케팅</li>
+                <a href=""><span>영어권 마케팅</span></a>
+                <a href=""><span>일본 마케팅</span></a>
+                <a href=""><span>중화권 마케팅</span></a>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <span>추천서비스</span>
+          <ul class="list-sub-menu">
+            <li class="menu-items">
+              <a href=""><span>업종별</span></a>
+              <ul>
+                <li>패션</li>
+                <li>뷰티</li>
+                <li>푸드</li>
+                <li>가구/인테리어</li>
+                <li>엔터테인먼트</li>
+                <li>여행/숙박</li>
+              </ul>
+            </li>
+            <li class="menu-items">
+              <a href=""><span>규모별</span></a>
+              <ul>
+                <li>인플루언서</li>
+                <li>스타트업/중소기업</li>
+                <li>1인 창업자</li>
+                <li>엔터프라이즈</li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+      </ul>
+
+      <div class="header-utility">
+        <nav class="header-nav">
+          <a href=""><span>엔터프라이즈</span></a>
+          <a href="" class="support">
+            <span>고객지원</span>
+            <ul>
+              <li>자주묻는 질문</li>
+              <li>블로그</li>
+            </ul>
+          </a>
+          <a href="login/login.html" class="login"><span>로그인</span></a>
+        </nav>
+        <button class="search-btn"><i class="fa-solid fa-magnifying-glass"></i></button>
+        <button class="menu"></span></button>
+      </div>
     </div>
   </header>
+  <main>
+    <div class="slider">
+      <img src="images/slide-01-v02.jpg" alt="">
+    </div>
+  </main>
+  <div class="search-overlay">
+  </div>
+  <div class="search">
+    <div class="search-wrap">
+      <img class="logo-white" src="images/logo-white.svg" alt="">
+      <button class="search-close">
+        <span>닫기</span>
+        <span class=" close-icon material-symbols-outlined">
+          close
+        </span>
+        <img src="images/" alt="">
+      </button>
+      <form action="" class="search-form">
+        <input type="text" class="search-input" name="" id="" placeholder="검색어를 입력해주세요.">
+        <button type="submit" class="search-submit">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </button>
+      </form>
+      <ul class="search-option">
+        <li><span>쇼핑몰 만들기</span></li>
+        <li><span>쇼핑몰 디자인</span></li>
+        <li><span>글로벌 진출</span></li>
+        <li><span>광고마케팅</span></li>
+        <li><span>에디봇</span></li>
+        <li><span>마켓통합관리</span></li>
+        <li><span>창업센터</span></li>
+      </ul>
+    </div>
+  </div>
+  <script src="js/main.js"></script>
 </body>
 
 </html>
